@@ -2,7 +2,7 @@ const http = require('http');
 const searchYoutube = require('./youtubeSearch');
 const { getVideoDetails, getPlaylistDetails, getChannelDetails } = require('./youtubeResources');
 
-const PORT = Number(process.env.PORT || 3000);
+const PORT = Number(process.env.PORT || 3053);
 const HOST = process.env.HOST || '0.0.0.0';
 
 const sendJson = (res, statusCode, data) => {
