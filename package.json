@@ -1,0 +1,17 @@
+{
+  "name": "nd_ytr",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "youtubeSearch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "cli": "node cli.js"
+  },
+  "dependencies": {
+    "undici": "^7.22.0"
+  }
+}
